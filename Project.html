@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        
+        .body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color:blueviolet;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav.menu-nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            background-color: hotpink;
+        }
+
+        nav.menu-nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav.menu-nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+
+        nav.menu-nav ul li a:hover {
+            background-color:brown;
+        }
+
+        .menu-container {
+            padding: 20px;
+        }
+
+        .menu-section {
+            margin-bottom: 40px;
+        }
+
+        .menu-section h2 {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+       <h1>Welcome to Our Menu</h1> 
+    </header>
+
+    <nav class="menu-nav">
+        <ul>
+          <li><a href="#appetizer">Appetizer</a></li>
+          <li><a href="#mains">Main Courses</a></li>
+          <li><a href="#desserts">Desserts</a></li>
+        </ul>
+    </nav>
+
+    <div class="menu-container">
+        <section id="appetizer" class="menu-section">
+            <h2>Appetizers</h2>
+            <p>Try our delicious starters to begin your meal!</p>
+        </section>
+
+        <section id="mains" class="menu-section">
+            <h2>Main Courses</h2>
+            <p>Our main dishes are the heart of the meal, from savory meats to delicious vegetarian options.</p>
+        </section>
+
+        <section id="desserts" class="menu-section">
+            <h2>Desserts</h2>
+            <p>End your meal on a sweet note with our delectable desserts.</p>
+        </section>
+    </div>
+</body>
+</html>
